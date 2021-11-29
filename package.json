@@ -8,6 +8,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "fast-glob": "^3.2.7",
     "glob": "^7.2.0",
     "next": "12.0.4",
     "react": "17.0.2",

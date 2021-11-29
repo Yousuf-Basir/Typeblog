@@ -1,11 +1,14 @@
 import path from "path";
 import fs from "fs";
-import glob from "glob";
+import fg from "fast-glob";
 import { contentDirectory } from "./appConfigs";
 
 export const getDirectories = (src:string) => {
-    const matchedDirs =  glob.sync(src + '/**/*/');
+    const matchedDirs =  fg.sync(src + '/**/*', {onlyDirectories: true});
+    
     return matchedDirs.map(dirFullPath => (
         path.relative(contentDirectory, dirFullPath)
     ))
 }
+
+
