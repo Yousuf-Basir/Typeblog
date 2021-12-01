@@ -1,8 +1,9 @@
 ---
 title: What is Lorem Ipsum?
-slug: education/what-is-education
-date: 2021-11-25T16:38:22.949Z
+fileName: what-is-loram.md
+date: 1638333045445
 cover: https://ec.europa.eu/jrc/sites/default/files/styles/normal-responsive/public/fotolia-4039243-chemical-industry.jpg?itok=XVbs2oXl
+shortDescription: Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
 ---
 # What is Lorem Ipsum?
 ## Lorem Ipsum is simply dummy text of the printing and typesetting industry. 

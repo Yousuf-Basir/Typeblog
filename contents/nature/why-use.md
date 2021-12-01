@@ -1,8 +1,9 @@
 ---
 title: Why Do Whales Do That?
-slug:  why-use
-date:  2021-11-25T16:40:09.397Z
+fileName: why-use.md
+date:  1638333130100
 cover: https://i.pinimg.com/originals/6b/42/6b/6b426b6981f4c3c2f1433a3c058896f1.jpg
+shortDescription: It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
 ---
 ## Why to use it
 
@@ -13,7 +14,7 @@ ___
 The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
 
 ___
-
+![enter image description here](https://i.pinimg.com/originals/6b/42/6b/6b426b6981f4c3c2f1433a3c058896f1.jpg)
 ### Many desktop publishing packages and web page
 
 + editors now use Lorem Ipsum as their

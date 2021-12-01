@@ -1,8 +1,9 @@
 ---
 title: Why Do Whales Do That?
-slug:  education/why-use
-date:  2021-11-25T16:40:09.397Z
+fileName: why-use.md
+date:  1638333109289
 cover: https://i.pinimg.com/originals/6b/42/6b/6b426b6981f4c3c2f1433a3c058896f1.jpg
+shortDescription: It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
 ---
 ## Why to use it
 

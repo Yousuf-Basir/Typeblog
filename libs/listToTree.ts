@@ -1,27 +1,26 @@
-export const listToTree = (files: any[]) => {
-    return (
-        files.map(file => file.split('/'))
-            .reduce((out, path) => {
-                let top = out;
-                while (path.length > 0) {
-                    let node = path.shift();
-                    if (top.findIndex((n: any) => n.text === node) === -1) {
-                        top.push({
-                            text: node
-                        });
-                    }
+export const listToTree = (paths: string[]) => {
+    interface itemI {
+        name: string,
+        id: string,
+        children: itemI[]
+    }
+    const result:itemI[] = []
+    const levels = { result }
 
-                    if (path.length > 0) {
-                        let index = top.findIndex((n: any) => n.text === node);
-                        top[index] = top[index] || {};
-                        top[index].children = top[index].children || [];
-                        top[index].children.push({
-                            text: path[0]
-                        });
-                        top = top[index].children;
-                    }
-                }
-                return out;
-            }, [])
-    )
+    paths.forEach(path => {
+        let id = '';
+
+        path.split('/').reduce((r:any, name, i, a) => {
+            id += (id ? '/' : '') + name;
+
+            if (!r[name]) {
+                r[name] = { result: [] }
+                r.result.push({ name, id, children: r[name].result })
+            }
+
+            return r[name]
+        }, levels)
+    })
+
+    return result;
 }

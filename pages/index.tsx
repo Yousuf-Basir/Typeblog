@@ -1,6 +1,5 @@
 import type { GetStaticProps, NextPage } from 'next'
 import Layout from '../components/Layout'
-import Navbar from '../components/Navbar'
 import { contentDirectory } from '../libs/appConfigs'
 import { getDirectories } from '../libs/getDirectories'
 

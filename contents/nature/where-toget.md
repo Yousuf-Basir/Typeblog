@@ -1,8 +1,9 @@
 ---
 title: Where can I get some?
-slug: nature/where-toget
-date: 2021-11-25T16:41:42.500Z
+fileName: where-toget.md
+date: 1638333141888
 cover: https://i.guim.co.uk/img/media/bd0ae53a32f1d444fcf2a51181a7c895af2d012e/0_119_5184_3110/master/5184.jpg?width=465&quality=45&auto=format&fit=max&dpr=2&s=4ed4e54bebd25b9866610b19cf6f53f9
+shortDescription: There are many variations of passages of Lorem Ipsum available. But the majority have suffered alteration in some form, by injected humour
 ---
 # Where can I get some?
 ### There are many variations of passages of Lorem Ipsum available

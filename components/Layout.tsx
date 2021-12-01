@@ -1,5 +1,5 @@
 import React, { ReactElement } from 'react'
-import Navbar from './Navbar'
+import TopNavbar from './TopNavbar'
 
 interface Props {
     children: ReactElement,
@@ -9,7 +9,7 @@ interface Props {
 const Layout = ({children, categoryPaths}: Props) => {
     return (
         <div>
-            <Navbar categoryPaths={categoryPaths} />
+            <TopNavbar paths={categoryPaths} />
             {children}
         </div>
     )
